@@ -1,0 +1,673 @@
+{
+  "meta": {
+    "url": "http://127.0.0.1:5173",
+    "pages": [
+      "/"
+    ],
+    "viewports": [
+      "1440x900",
+      "1280x720",
+      "390x844"
+    ],
+    "profile": "a-eweb.profile.json",
+    "date": "2026-11-12T05:46:07.967Z"
+  },
+  "summary": {
+    "fail": 0,
+    "review": 5,
+    "pass": 63
+  },
+  "results": [
+    {
+      "check": "covered",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "Nothing covers another section while scrolling",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "hidden-content",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "All content became visible",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "overflow-x",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "No sideways scroll",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "section-overlap",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "No sections overlap in the page flow",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "section-gap",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "Sections sit edge to edge",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "inner-padding",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "Section padding within 96px",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "uneven-padding",
+      "status": "REVIEW",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "Section paddings range over 62px",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "sparse-section",
+      "status": "REVIEW",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "Sections that are mostly empty",
+      "items": [
+        "section#hero.sec.sec--hero \"Return To Yourself A boutique retreat sa\": 10% filled",
+        "section#invite.sec.sec--invite \"Some come here to rest. Some come here t\": 13% filled",
+        "section#sanctuary.sec.sec--sanctuary \"A Sanctuary Surrounded by Nature Sacred \": 12% filled",
+        "section#explore.sec.sec--explore \"Explore Sacred Mandala Every corner of t\": 17% filled",
+        "section#stay.sec.sec--stay \"Seven Rooms, Seven Deities Shiva Named f\": 5% filled",
+        "section#day.sec.sec--day \"A Day in Sacred Mandala Here, time moves\": 18% filled",
+        "section#programs.sec.sec--programs \"Retreats, Shaped to You Two guided reset\": 21% filled",
+        "section#cta.sec.sec--cta \"There is no single way to experience Sac\": 13% filled"
+      ],
+      "more": 0
+    },
+    {
+      "check": "escapes-section",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "Everything stays inside its section",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "content-overflow",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "No content cut off",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "font-families",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "2 font families in use (max 2)",
+      "items": [
+        "Montserrat (82% of text)",
+        "Cormorant Garamond (18% of text)"
+      ],
+      "more": 0
+    },
+    {
+      "check": "brand-colours",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "1 colour hues besides neutrals (brand max 2)",
+      "items": [
+        "#c9a86a"
+      ],
+      "more": 0
+    },
+    {
+      "check": "nav-font",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "Header menu 16px, footer links n/apx (must match, header ≥ 16px)",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "eyebrow",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "No small headings above titles",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "number-label",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "No number labels",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "video-controls",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "No visible video controls",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "original-site-link",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "No links to the original site",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "image-broken",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "All images load",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "image-blurry",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "Images are sharp at this size",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "cursor-effect",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "No cursor effects",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "nav-anchor-missing",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "All menu anchors exist",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "nav-landing",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "All 6 menu links land on one full section",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "side-margin",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "Content starts 56px from the screen edge (max 56px)",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "console-error",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1440x900",
+      "message": "No errors",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "covered",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "Nothing covers another section while scrolling",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "hidden-content",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "All content became visible",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "overflow-x",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "No sideways scroll",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "section-overlap",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "No sections overlap in the page flow",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "section-gap",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "Sections sit edge to edge",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "inner-padding",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "Section padding within 96px",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "uneven-padding",
+      "status": "REVIEW",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "Section paddings range over 62px",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "sparse-section",
+      "status": "REVIEW",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "Sections that are mostly empty",
+      "items": [
+        "section#hero.sec.sec--hero \"Return To Yourself A boutique retreat sa\": 9% filled",
+        "section#invite.sec.sec--invite \"Some come here to rest. Some come here t\": 13% filled",
+        "section#sanctuary.sec.sec--sanctuary \"A Sanctuary Surrounded by Nature Sacred \": 17% filled",
+        "section#explore.sec.sec--explore \"Explore Sacred Mandala Every corner of t\": 20% filled",
+        "section#stay.sec.sec--stay \"Seven Rooms, Seven Deities Shiva Named f\": 9% filled",
+        "section#day.sec.sec--day \"A Day in Sacred Mandala Here, time moves\": 20% filled",
+        "section#programs.sec.sec--programs \"Retreats, Shaped to You Two guided reset\": 21% filled",
+        "section#cta.sec.sec--cta \"There is no single way to experience Sac\": 23% filled"
+      ],
+      "more": 0
+    },
+    {
+      "check": "escapes-section",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "Everything stays inside its section",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "content-overflow",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "No content cut off",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "font-families",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "2 font families in use (max 2)",
+      "items": [
+        "Montserrat (82% of text)",
+        "Cormorant Garamond (18% of text)"
+      ],
+      "more": 0
+    },
+    {
+      "check": "brand-colours",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "1 colour hues besides neutrals (brand max 2)",
+      "items": [
+        "#c9a86a"
+      ],
+      "more": 0
+    },
+    {
+      "check": "nav-font",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "Header menu 16px, footer links n/apx (must match, header ≥ 16px)",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "eyebrow",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "No small headings above titles",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "number-label",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "No number labels",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "video-controls",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "No visible video controls",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "original-site-link",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "No links to the original site",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "image-broken",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "All images load",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "image-blurry",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "Images are sharp at this size",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "cursor-effect",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "No cursor effects",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "nav-anchor-missing",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "All menu anchors exist",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "nav-landing",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "All 6 menu links land on one full section",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "side-margin",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "Content starts 51px from the screen edge (max 56px)",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "console-error",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "1280x720",
+      "message": "No errors",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "covered",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "Nothing covers another section while scrolling",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "hidden-content",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "All content became visible",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "overflow-x",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "No sideways scroll",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "section-overlap",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "No sections overlap in the page flow",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "section-gap",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "Sections sit edge to edge",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "inner-padding",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "Section padding within 64px",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "uneven-padding",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "Section paddings range over 30px",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "sparse-section",
+      "status": "REVIEW",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "Sections that are mostly empty",
+      "items": [
+        "section#hero.sec.sec--hero \"Return To Yourself A boutique retreat sa\": 11% filled",
+        "section#invite.sec.sec--invite \"Some come here to rest. Some come here t\": 15% filled",
+        "section#day.sec.sec--day \"A Day in Sacred Mandala Here, time moves\": 29% filled",
+        "section#programs.sec.sec--programs \"Retreats, Shaped to You Two guided reset\": 27% filled",
+        "section#cta.sec.sec--cta \"There is no single way to experience Sac\": 29% filled"
+      ],
+      "more": 0
+    },
+    {
+      "check": "escapes-section",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "Everything stays inside its section",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "content-overflow",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "No content cut off",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "font-families",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "2 font families in use (max 2)",
+      "items": [
+        "Montserrat (81% of text)",
+        "Cormorant Garamond (19% of text)"
+      ],
+      "more": 0
+    },
+    {
+      "check": "brand-colours",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "1 colour hues besides neutrals (brand max 2)",
+      "items": [
+        "#c9a86a"
+      ],
+      "more": 0
+    },
+    {
+      "check": "eyebrow",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "No small headings above titles",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "number-label",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "No number labels",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "video-controls",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "No visible video controls",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "original-site-link",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "No links to the original site",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "image-broken",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "All images load",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "image-blurry",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "Images are sharp at this size",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "cursor-effect",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "No cursor effects",
+      "items": [],
+      "more": 0
+    },
+    {
+      "check": "console-error",
+      "status": "PASS",
+      "page": "/",
+      "viewport": "390x844",
+      "message": "No errors",
+      "items": [],
+      "more": 0
+    }
+  ]
+}

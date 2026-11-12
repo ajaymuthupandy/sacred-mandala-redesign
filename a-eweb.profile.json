@@ -1,0 +1,71 @@
+{
+  "$comment": "A-Eweb profile for the Sacred Mandala 3D redesign.",
+  "site": "Sacred Mandala",
+  "originalUrl": "https://www.sacred-mandala.com",
+  "originalDomain": "sacred-mandala.com",
+  "siteType": "single-page",
+  "industry": "wellness retreat",
+  "autoDeploy": false,
+  "homePageLocked": false,
+  "fonts": {
+    "logoFont": "Cormorant Garamond",
+    "allowed": [
+      "Cormorant Garamond",
+      "Montserrat"
+    ],
+    "maxFamilies": 2
+  },
+  "colours": {
+    "brand": [
+      "#0B1410",
+      "#C9A86A"
+    ],
+    "maxBrandColours": 2
+  },
+  "header": {
+    "behaviour": "reveal-on-scroll-up",
+    "navMinPx": 16
+  },
+  "layout": {
+    "maxSideMarginPx": 56,
+    "maxSectionPaddingPx": 96,
+    "maxFooterVh": 0.4,
+    "footerFitsWithLastSection": true,
+    "sectionsFitOneScreen": false,
+    "exemptSelectors": [
+      ".sec--stay",
+      ".sec--explore"
+    ]
+  },
+  "content": {
+    "copy": "short",
+    "allowEyebrows": false,
+    "allowNumberLabels": false
+  },
+  "motion": {
+    "scrollAnimations": "rich",
+    "allowPinnedSections": true,
+    "allowCursorEffects": false,
+    "heroVideoControls": false
+  },
+  "images": {
+    "allowGeneratedImages": false
+  },
+  "design": {
+    "primary": "cinematic 3D gallery",
+    "supporting": [
+      "fog",
+      "gold line work"
+    ],
+    "layout": [
+      "asymmetric text left / imagery right"
+    ],
+    "interaction": [
+      "scroll-driven camera"
+    ]
+  },
+  "notes": [
+    "The Stay chapter is intentionally pinned across 300vh to turn the seven-room ring; Explore is 150vh for the seven-space mosaic.",
+    "Eyebrows and 01-04 numbering were removed at the client's request (A-Eweb rule 8)."
+  ]
+}
