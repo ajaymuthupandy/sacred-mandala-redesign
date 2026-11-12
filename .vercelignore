@@ -1,0 +1,9 @@
+# Not part of the shipped site — kept in the repo, excluded from deploys
+qa/
+_research/
+start.cmd
+start.sh
+*.profile.json
+package-lock.json
+# Unreferenced original-site video (11.6 MB): kept in git, never served
+img/hero.mp4
